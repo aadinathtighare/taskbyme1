@@ -24,6 +24,6 @@ def lambda_handler(event, context):
 
     s3.put_object(Bucket=bucket, Key=fileName, Body=uploadByteStream)
 
-    print('Put Complete')
+    print('Put1 Complete')
 
 
